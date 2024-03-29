@@ -7,8 +7,7 @@ a real website.
 1. [About The Project.](#About-The-Project)
 2. [Images.](#Images)
 3. [Roadmap.](#Roadmap)
-4. [Build With.](#Build-With)
-5. [Link.](#Link)
+4. [Link.](#Link)
 
 <a name="About-The-Project"></a>
 ### About The Project
@@ -23,3 +22,15 @@ this week.
 ### Images
 ![Web page one](readme-photo-one.png)
 ![Web page one](readme-photo-two.png)
+
+<a name="Roadmap"></a>
+### Roadmap
+- [x] Open a new repository and connect it to Netlify.
+- [x] Curate all the material to use on the website.
+- [x] Understand the structure and the design.
+- [x] Construct.
+- [ ] Add CSS variables.
+
+<a name="Link"></a>
+### Link
+[Netlify](https://main--tesla-il.netlify.app)
