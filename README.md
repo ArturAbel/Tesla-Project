@@ -8,7 +8,7 @@ a real website.
 2. [Images.](#Images)
 3. [Roadmap.](#Roadmap)
 4. [Link.](#Link)
-
+5. [Needs Improvement.](#Needs-Improvement)
 <a name="About-The-Project"></a>
 ### About The Project
 
@@ -37,8 +37,15 @@ this week.
 - [x] Understand the structure and the design.
 - [x] Construct.
 - [ ] Add CSS variables.
-- [ ] Make it responsive.
+- [x] Make it responsive.
 
 <a name="Link"></a>
 ### Link
 [Netlify](https://main--tesla-il.netlify.app)
+
+<a name="Needs-Improvement"></a>
+### Needs Improvement
+1. Need to work on understanding flex better.
+2. Must improve the naming and make the CSS/HTML more clear.
+
+# Please help me with any suggestions for improvement. Always ready to listen.
