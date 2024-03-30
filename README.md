@@ -30,6 +30,7 @@ this week.
 - [x] Understand the structure and the design.
 - [x] Construct.
 - [ ] Add CSS variables.
+- [ ] Make it responsive.
 
 <a name="Link"></a>
 ### Link
