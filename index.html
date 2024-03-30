@@ -3,16 +3,20 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="/css/Normlize/normlize.css">
+   <link rel="stylesheet" href="/css/utilities.css">
+   <link rel="stylesheet" href="/css/normlize.css">
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="/css/responsive.css">
    <link rel="shortcut icon" href="/images/favicon/tesla.ico" type="image/x-icon">
    <title>Electric Cars, Solar & CLean Energy | Tesla</title>
 </head>
 <body class="body">
-   <div class="flex container column">
+
+   <!-- First Section -->
+   <div class="container">
       <nav class="flex navbar">
          <h1 class="flex nav-left items-center">
-            <a class="flex nav-logo" href="www.google.com" ><img src="/svg/logo.svg" alt="logo"></a>
+            <a class="flex nav-logo" href="www.tesla.com" ><img src="/svg/logo.svg" alt="logo"></a>
          </h1>
          <ol class="flex nav-middle items-center justify-center">
             <button><span>Vehicles</span></button>
@@ -29,11 +33,11 @@
       </nav>
       <video id="home-video" autoplay="autoplay" loop="loop" preload="auto" muted="muted"><source src="/video/home.mp4" type="video/mp4"></video>
       <div class="flex bottom-container column">
-         <div class="flex button-container space-around">
-            <button class="round-button"></button>
-            <button class="round-button"></button>
-            <button id ="white-btn" class="round-button"></button>
-            <button class="round-button"></button>
+         <div class="flex dots-box space-around">
+            <button class="dot"></button>
+            <button class="dot"></button>
+            <button id ="white-btn" class="dot"></button>
+            <button class="dot"></button>
          </div>
          <h1 class="bottom-head move-down">New Model 3</h1>
          <h2 id="white-text">Reenginired from the ground up.<br>Be the first to get behind the wheel. Demo drive now.</h2>
@@ -43,27 +47,31 @@
          </div>
       </div>
    </div>
-   <div id="blue-car" class="flex container column items-center space-between">
+
+   <!-- Second Section -->
+   <div id="blue-car" class="container column items-center space-between">
       <div class="column items-center">
          <h1 class="content-header">Model Y</h1>
          <p class="text"> <span id="strong">From $36,490*</span><br><span id="small">After Federal Tax Credit</span></p>
       </div> 
       <div class="bottom-div"> 
-         <div class="flex content-buttons-container justify-center space-between">
+         <div class="flex btn-container justify-center space-between">
             <button id="white-btn"><span>Shop Available</span></button>
             <button id="black-btn"><span>Demo Drive</span></button>
          </div>
          <p class="disclaimer">*Prices before incentives is $43,990, excluding taxes and fees. subject to change.</p> 
       </div>
    </div>
-   <div id="red-car" class="flex container column items-center space-between">
+
+   <!-- Third Section -->
+   <div id="red-car" class="container column items-center space-between">
       <div class="flex column items-center">
          <p id="header-three" id="strong">Reenginired</p>
          <h1 id="sub-header-three">Model 3</h1>
          <p class="text"><span id="strong">Lease starting at $329/mo*</span></p>
       </div> 
       <div class="bottom-div"> 
-         <div class="flex content-buttons-container justify-center space-between">
+         <div class="flex btn-container justify-center space-between">
             <button id="white-btn"><span>Custom Order</span></button>
             <button id="black-btn"><span>Demo Drive</span></button>
          </div>
@@ -71,13 +79,15 @@
          </p> 
       </div>
    </div>
-   <div id="model-x" class="flex container column items-center space-between">
+
+   <!-- Fourth Section -->
+   <div id="model-x" class="container column items-center space-between">
       <div class="column items-center">
          <h1 class="content-header">Model X</h1>
          <p class="text"> <span id="strong">From $68,590*</span><br><span id="small">After Federal Tax Credit & Est. Gas Savings</span><p>
       </div> 
       <div class="bottom-div space-between"> 
-         <div class="flex content-buttons-container justify-center space-between">
+         <div class="flex btn-container justify-center space-between">
             <button id="white-btn"><span>Custom Order</span></button>
             <button id="black-btn"><span>Demo Drive</span></button>
          </div>
