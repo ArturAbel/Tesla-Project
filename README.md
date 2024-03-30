@@ -20,8 +20,15 @@ this week.
 
 <a name="Images"></a>
 ### Images
-![Web page one](readme-photo-one.png)
-![Web page one](readme-photo-two.png)
+#### Original
+![Web page one](/readme-img/readme-photo-one.png)
+#### Project
+![Web page one](/readme-img/original-one.png)
+
+#### Original
+![Web page one](/readme-img/original-two.png)
+#### Project
+![Web page one](/readme-img/readme-photo-two.png)
 
 <a name="Roadmap"></a>
 ### Roadmap
