@@ -140,16 +140,17 @@ padding: 0 3px 0 0;
 .dots-box{
    height: 30px;
    width: 85px;
-   padding: 0 8px;
    position: absolute;
-   right: 576px;
+   right: 430px;
    z-index: 3;
-   padding: 0 5px 0 5px;
+   padding-left: 9px;
+   margin-top: -3px;
 }
 .dot{
 height: 12px;
 width: 12px;
-padding: 1PX 5px 1PX 5px;
+margin: 0 3px;
+padding: 1PX 4px 1PX 4px;
 position: relative;
 border-radius: 50%;
 border: none;
