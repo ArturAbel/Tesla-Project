@@ -48,4 +48,4 @@ this week.
 1. Need to work on understanding flex better.
 2. Must improve the naming and make the CSS/HTML more clear.
 
-# Please help me with any suggestions for improvement. Always ready to listen.
+# Please help me with any suggestions for improvement.<br>Always ready to listen.
