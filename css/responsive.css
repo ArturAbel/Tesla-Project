@@ -5,13 +5,13 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100px;
+      height: 120px;
    }
-   .navbar h1, ol li{
-      align-items: center;
+   .nav-left{
+      width: 100%;
       justify-content: center;
-}
-.nav-right{
+   }
+   .nav-right{
       gap: 10px;
       justify-content: center;
       align-items: center;
@@ -20,6 +20,11 @@
      height: 200px;
      width: 90%;
       align-content: center;
+   }
+   .bottom-container{
+      width: 100%;
+      align-items: center;
+      margin: 0;
    }
    .btn-container{
       width: 100%;

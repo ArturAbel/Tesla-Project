@@ -88,6 +88,11 @@
    display: block;
    padding: 0 16px;
 }
+.nav-logo img{
+   width: 120px;
+   height: 24px;
+   margin-top: 4px;
+}
 .navbar ol{
 padding: 0 3px 0 0;
 }
@@ -96,10 +101,9 @@ padding: 0 3px 0 0;
    height: 32px;
    text-align: center;
    line-height: 20px;
-   padding: 4px 8px 4px 8px;
+   padding: 4px 16px 4px 15px;
    color: white;
    border: none;
-   padding: 4px 8px 4px 8px;
 }
 .navbar ol button:hover{
    background-color: #F2F2F2;
@@ -117,15 +121,16 @@ padding: 0 3px 0 0;
 }
 .navbar ol li a img{
    margin: -2px;
+   padding: 0;
 }
 
 
-/* ------------------Content slide 1 -------------*/
+/* ------------------Bottom Ad -------------*/
 .bottom-container{
-   width: 650px;
+   width: 500px;
    height: 264px;
    position: absolute;
-   top: 347.229px;
+   top: 350px;
    left: 48px;
    bottom: 36px;
    right: 565.333px;
@@ -159,16 +164,16 @@ box-shadow: 1px 1px 2px 0 grey;
    margin: 0;
    padding: 0 0 10px 0;
 }
-.bottom-sub-head{
-   color: white;
-   margin: 8px 0 0 0;
+.bottom-container h2{
+margin-top: 5px;
+line-height: 1.4;
 }
 .bottom-buttons{
    margin-top: 35px;
 }
 .bottom-buttons button{
    height: 40px;
-   width: 190px;
+   width: 200px;
    text-align: center;
    font-size: 14px;  
    font-weight: 500;
