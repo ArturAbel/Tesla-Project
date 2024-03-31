@@ -14,66 +14,67 @@
 
    <!-- First Section -->
    <div class="container">
-      <nav class="flex navbar">
-         <div class="flex nav-left items-center">
-            <a class="nav-logo" href="www.tesla.com" ><img src="/svg/logo.svg" alt="logo"></a>
+      <nav class="navbar">
+         <div class="nav-left">
+            <a class="logo" href="#">
+               <img src="/svg/logo.svg" alt=" SVG Logo">
          </div>
-         <ol class="flex nav-middle items-center justify-center">
-            <button>Vehicles</button>
-            <button>Energy</button>
-            <button>Charging</button>
-            <button>Discover</button>
-            <button>Shop</button>
+         <ol class="nav-mid">
+            <button class="nav-btn">Vehicles</button>
+            <button class="nav-btn">Energy</button>
+            <button class="nav-btn">Charging</button>
+            <button class="nav-btn">Discover</button>
+            <button class="nav-btn">Shop</button>
          </ol>
-         <ol class="flex nav-right items-center justify-right">
-            <li> <a href="https://www.tesla.com/support"><img src="/svg/question.svg" alt="support"></a></li>
-            <li> <a href="https://www.tesla.com/"><img src="/svg/globe.svg" alt="website"></a></li>
-            <li id="last-icon"> <a href="https://auth.tesla.com/en_us/oauth2/v1/authorize?redirect_uri=https%3A%2F%2Fwww.tesla.com%2Fteslaaccount%2Fowner-xp%2Fauth%2Fcallback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email%20phone&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=en-US"><img src="/svg/user.svg" alt="sign-in"></a></li>
+         <ol class="nav-right">
+            <li class="right-icon"> <a href="https://www.tesla.com/support"><img src="/svg/question.svg" alt="support"></a></li>
+            <li class="right-icon"> <a href="https://www.tesla.com/"><img src="/svg/globe.svg" alt="website"></a></li>
+            <li id="last-icon" class="right-icon"> <a href="https://auth.tesla.com/en_us/oauth2/v1/authorize?redirect_uri=https%3A%2F%2Fwww.tesla.com%2Fteslaaccount%2Fowner-xp%2Fauth%2Fcallback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email%20phone&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=en-US"><img src="/svg/user.svg" alt="sign-in"></a></li>
          </ol>
       </nav>
       <video id="home-video" autoplay="autoplay" loop="loop" preload="auto" muted="muted"><source src="/video/home.mp4" type="video/mp4"></video>
-      <div class="flex bottom-container column">
-         <div class="flex dots-box space-around">
+      <div class="bottom-container">
+         <div class="dots-box">
             <button class="dot"></button>
             <button class="dot"></button>
             <button id ="white-btn" class="dot"></button>
             <button class="dot"></button>
          </div>
-         <h1 class="bottom-head move-down">New Model 3</h1>
-         <h2 id="white-text">Reenginired from the ground up.<br>Be the first to get behind the wheel. Demo drive now.</h2>
-         <div class="ad-buttons">
-            <button id="white-btn">Demo Drive</button>
-            <button id="black-btn">Custom Order</button>
+         <h1 class="bottom-title">New Model 3</h1>
+         <h2 class="bottom-sub" id="white-text">Reenginired from the ground up.<br>Be the first to get behind the wheel. Demo drive now.</h2>
+         <div class="ad-btn-container">
+            <button class="ad-btn" id="white-btn">Demo Drive</button>
+            <button class="ad-btn" id="black-btn">Custom Order</button>
          </div>
       </div>
    </div>
 
    <!-- Second Section -->
-   <div id="blue-car" class="container column items-center space-between">
-      <div class="column items-center">
+   <div id="modelY" class="container section">
+      <div class="top-container">
          <h1 class="content-header">Model Y</h1>
          <p class="text"> <span id="strong">From $36,490*</span><br><span id="small">After Federal Tax Credit</span></p>
       </div> 
       <div class="bottom-div"> 
-         <div class="flex btn-container justify-center space-between">
-            <button id="white-btn"><span>Shop Available</span></button>
-            <button id="black-btn"><span>Demo Drive</span></button>
+         <div class="btn-container">
+            <button class="bottom-btn" id="white-btn"><span>Shop Available</span></button>
+            <button class="bottom-btn" id="black-btn"><span>Demo Drive</span></button>
          </div>
          <p class="disclaimer">*Prices before incentives is $43,990, excluding taxes and fees. subject to change.</p> 
       </div>
    </div>
 
    <!-- Third Section -->
-   <div id="red-car" class="container column items-center space-between">
-      <div class="flex column items-center">
+   <div id="model3" class="container section">
+      <div class="top-container">
          <p id="header-three" id="strong">Reenginired</p>
          <h1 id="sub-header-three">Model 3</h1>
          <p class="text"><span id="strong">Lease starting at $329/mo*</span></p>
       </div> 
       <div class="bottom-div"> 
-         <div class="flex btn-container justify-center space-between">
-            <button id="white-btn"><span>Custom Order</span></button>
-            <button id="black-btn"><span>Demo Drive</span></button>
+         <div class="btn-container">
+            <button class="bottom-btn" id="white-btn"><span>Custom Order</span></button>
+            <button class="bottom-btn" id="black-btn"><span>Demo Drive</span></button>
          </div>
          <p class="disclaimer">*Excludes taxes and fees with price subject to change. Available in select states.  <a id="keep-color" href="https://www.tesla.com/model3/design?financeModalTab=finance_options#overview">See Details</a>
          </p> 
@@ -81,19 +82,51 @@
    </div>
 
    <!-- Fourth Section -->
-   <div id="model-x" class="container column items-center space-between">
-      <div class="column items-center">
+   <div id="modelX" class="container section">
+      <div class="top-container">
          <h1 class="content-header">Model X</h1>
-         <p class="text"> <span id="strong">From $68,590*</span><br><span id="small">After Federal Tax Credit & Est. Gas Savings</span><p>
+         <p class="text"><span id="strong">From $68,590*</span><br><span id="small">After Federal Tax Credit & Est. Gas Savings</span><p>
       </div> 
-      <div class="bottom-div space-between"> 
-         <div class="flex btn-container justify-center space-between">
-            <button id="white-btn"><span>Custom Order</span></button>
-            <button id="black-btn"><span>Demo Drive</span></button>
+      <div class="bottom-div"> 
+         <div class="btn-container">
+            <button class="bottom-btn" id="white-btn"><span>Custom Order</span></button>
+            <button class="bottom-btn" id="black-btn"><span>Demo Drive</span></button>
          </div>
          <p id="white-text" class="disclaimer">*Price before incentives and savings is $79,990, excluding taxes and fees. Subject to change.<br>
             <a id="keep-color" href="https://www.tesla.com/modelx/design?financeModalTab=gas_savings#overview">Learn about est. gas savings.</a> </p> 
       </div>
    </div>
+   <!-- fifth section    -->
+   <div id="models" class="container section">
+      <div class="top-container">
+         <h1 class="content-header">Model S</h1>
+         <p class="text"><span id="strong">From $71,090*
+         </span><br><span id="small">After Est. Gas Savings</span><p>
+      </div> 
+      <div class="bottom-div"> 
+         <div class="btn-container">
+            <button class="bottom-btn" id="white-btn"><span>Custom Order</span></button>
+            <button class="bottom-btn" id="black-btn"><span>Demo Drive</span></button>
+         </div>
+         <p class="disclaimer">*Price before incentives and savings is $79,990, excluding taxes and fees. Subject to change.<br>
+            <a id="keep-color" href="https://www.tesla.com/modelx/design?financeModalTab=gas_savings#overview">Learn about est. gas savings.</a> </p> 
+      </div>
+   </div>
+      <!-- Sixth section    -->
+      <div id="truck" class="container section">
+         <div class="top-container">
+            <h1 class="content-header"> </h1>
+            <p class="text"><span id="strong">
+            </span><br><span id="small"></span><p>
+         </div> 
+         <div class="bottom-div"> 
+            <div class="btn-container">
+               <button class="bottom-btn" id="white-btn"><span>Custom Order</span></button>
+               <button class="bottom-btn" id="black-btn"><span>Demo Drive</span></button>
+            </div>
+            <p class="disclaimer"><br>
+               <a id="keep-color" href="https://www.tesla.com/modelx/design?financeModalTab=gas_savings#overview"></a> </p> 
+         </div>
+      </div>
 </body>
 </html>
