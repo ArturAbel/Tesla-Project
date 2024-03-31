@@ -55,7 +55,7 @@
    height: 100%;
    object-fit: cover;
 }
-#blue-car{
+#modelY{
    background-image: url("/images/blue.jpg");
    background-size: 100% 650px;
    background-repeat: no-repeat;
@@ -63,7 +63,7 @@
    background-size: cover;
 
 }
-#red-car{
+#model3{
    background-image: url("/images/red.jpg");
    background-size: 100% 650px;
    background-repeat: no-repeat;
@@ -71,8 +71,22 @@
    background-size: cover;
 
 }
-#model-x{
+#modelX{
    background-image: url("/images/x.jpg");
+   background-size: 100% 650px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#models{
+   background-image: url("/images/s.jpg");
+   background-size: 100% 650px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#truck{
+   background-image: url("/images/truck.jpg");
    background-size: 100% 650px;
    background-repeat: no-repeat;
    background-position: center center;
